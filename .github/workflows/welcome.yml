@@ -7,3 +7,6 @@ permissions:
   pull-requests: write
 
 jobs:
+  welcome:
+    name: welcome workflow
+    runs-on: ubuntu-latest
